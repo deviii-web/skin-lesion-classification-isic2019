@@ -1,0 +1,40 @@
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Raw datasets and archives
+data/raw/
+*.zip
+ISIC_2019_*.csv
+
+# Model checkpoints (large binary files)
+models/*.pth
+models/*.pt
+
+# Temporary files
+*.log
+*.tmp
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Notebook outputs and editor files
+.vscode/
+# Large generated visualization grids
+results/gradcam/gradcam_4class_summary_grid.png
+results/gradcam/gradcam_summary_grid.png
+results/plots/eda_sample_images.png

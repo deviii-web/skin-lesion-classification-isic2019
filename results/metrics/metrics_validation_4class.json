@@ -1,0 +1,63 @@
+{
+    "split": "validation_4class",
+    "total_samples": 5066,
+    "accuracy": 0.7473351756810107,
+    "macro_f1": 0.7089286818826169,
+    "weighted_f1": 0.7494670210910725,
+    "per_class_metrics": {
+        "NV": {
+            "diagnosis": "Melanocytic Nevus",
+            "precision": 0.868421052631579,
+            "recall": 0.8073786407766991,
+            "f1_score": 0.8367880861340311,
+            "support": 2575
+        },
+        "MEL": {
+            "diagnosis": "Melanoma",
+            "precision": 0.5971370143149284,
+            "recall": 0.6460176991150443,
+            "f1_score": 0.6206163655685442,
+            "support": 904
+        },
+        "BCC": {
+            "diagnosis": "Basal Cell Carcinoma",
+            "precision": 0.6678832116788321,
+            "recall": 0.825563909774436,
+            "f1_score": 0.7383994620040351,
+            "support": 665
+        },
+        "OTHER": {
+            "diagnosis": "Other Lesions (AK, BKL, DF, VASC, SCC)",
+            "precision": 0.658256880733945,
+            "recall": 0.6225596529284165,
+            "f1_score": 0.6399108138238572,
+            "support": 922
+        }
+    },
+    "confusion_matrix": [
+        [
+            2079,
+            272,
+            82,
+            142
+        ],
+        [
+            200,
+            584,
+            41,
+            79
+        ],
+        [
+            12,
+            27,
+            549,
+            77
+        ],
+        [
+            103,
+            95,
+            150,
+            574
+        ]
+    ]
+}
